@@ -1,22 +1,22 @@
-# Why do you want to use IIIF?
+# ¿Por qué usar IIIF?
 
-Many libraries, archives, organizations, and museums store and provide access to images. Images transmit scholarship, culture, and understanding. There are a lot of great reasons to adopt IIIF, first and foremost, you don't need to keep solving common problems[^1].
+Muchas bibliotecas, archivos, organizaciones, y museos almacenan y proporcionan acceso a imágenes. Las imágenes transmiten conocimiento, cultura, y comprensión. Hay muchas buenas razones para adoptar IIIF, en primer lugar, que no es necesario seguir resolviendo problemas comunes[^1].
 
-  - I am locked into my image delivery software
-  - I need a newer, faster image server
-  - I want deep zoom
-  - I want to allow users to visually compare objects in the collection
-  - I want to make it easy for my users to cite and share my images
-  - I want to allow visitors to annotate my images online
-  - I want to allow embedding of my images in blogs and web pages
+  - Estoy atrapado en mi software de entrega de imágenes
+  - Necesito un servidor de imágenes más nuevo y veloz
+  - Quiero zoom profundo
+  - Quiero permitir que los usuarios comparen visualmente objetos de la colección
+  - Quiero facilitar que mis usuarios citen y compartan mis imágenes
+  - Quiero permitir que los visitantes anoten mis imágenes en línea
+  - Quiero permitir la incrustación de mis imágenes en blogs y páginas web
 
-These things should not have to be invented each time.
+Estas cosas no debieran ser inventadas cada vez.
 
-## IIIF aims to solves these problems (and others)
+## IIIF pretende resolver estos problemas (y otros)
 
-IIIF aims to solve these problems (and others) by providing standards, a community of practice, software creators, and content providers.
+IIIF pretende resolver estos problemas (y otros) proporcionando estándares, una comunidad de práctica, creadores de software, y proveedores de contenido.
 
-By collaboration in this manner, we are able to create more tools, better software, and gain access to more content.
+Colaborando en esta forma, podemos crear más herramientas, mejor software, y ganar acceso a más contenido.
 
 
-[^1]: Everything you ever wanted to know about IIIF but were too afraid to ask: https://www.slideshare.net/Cogapp/everything-you-ever-wanted-to-know-about-iiif-but-were-too-afraid-to-ask
+[^1]: Todo lo que siempre quiso saber sobre IIIF pero temía preguntar: https://www.slideshare.net/Cogapp/everything-you-ever-wanted-to-know-about-iiif-but-were-too-afraid-to-ask

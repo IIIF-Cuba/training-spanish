@@ -1,60 +1,60 @@
-# Installing Cantaloupe IIIF image server
+# Instalando el servidor de imágenes de IIIF Cantaloupe
 
-Make sure you have [installed the prerequisites](PREREQUISITES.md#iiif-server-requirements).
+Compruebe que tiene [instalados los prerrequisitos](PREREQUISITES.md#iiif-server-requirements).
 
-## Download Cantaloupe
+## Descargar Cantaloupe
 
-For more information, checkout the [Cantaloupe getting started guide](https://medusa-project.github.io/cantaloupe/get-started.html).
+Para más información, vea [guía de inicio de Cantaloupe](https://medusa-project.github.io/cantaloupe/get-started.html).
 
-Download [Cantaloupe v3.3.1](https://github.com/medusa-project/cantaloupe/releases/download/v3.3.1/Cantaloupe-3.3.1.zip)
+Descargue [Cantaloupe v3.3.1](https://github.com/medusa-project/cantaloupe/releases/download/v3.3.1/Cantaloupe-3.3.1.zip)
 
-Open and extract the zip file to your directory of choosing. We suggest `~/Desktop`.
+Abra y extraiga el archivo zip en un directorio de su elección. Sugerimos `~/Desktop`.
 
-Now change directory to that extracted directory
+Ahora cambie el directorio a ese directorio extraído
 
 ```sh
 $ cd ~/Desktop/Cantaloupe-3.3.1
 ```
 
-## Configure Cantaloupe
+## Configurar Cantaloupe
 
-Now lets create a copy of the configuration file:
+Ahora vamos a crear una copia del archivo de configuración:
 
 ```sh
 $ cp cantaloupe.properties.sample cantaloupe.properties
 ```
 
-Now lets enable the admin panel where we will modify the rest of the settings.
+Ahora vamos a activar el panel admin donde modificaremos las restantes opciones.
 
-Scroll to line 34, and change `false` to `true`. Also add a password.
+Desplácese a la línea 34, y cambie `false` por `true`. También, añada una contraseña.
 
 ```diff
-# Enables the Control Panel, at /admin.
+# Activa el Panel de Control, en /admin.
 - admin.enabled = false
 + admin.enabled = true
-# Password to access the Control Panel. (The username is always "admin".)
+# Contraseña para acceder al Panel de Control. (El nombre de usuario es siempre "admin".)
 - admin.password =
 + admin.password = yolo
 ```
 
-Save the file.
+Guarde el archivo.
 
-Now lets try and start the server. Run this command from your Cantaloupe directory
+Ahora vamos a tratar de iniciar el servidor. Ejecute este comando desde su directorio de Cantaloupe
 
 ```sh
 $ java -Dcantaloupe.config=./cantaloupe.properties -Xmx2g -jar Cantaloupe-3.3.1.war
 ```
 
-Now navigate to [http://127.0.0.1:8182/iiif/2](http://127.0.0.1:8182/iiif/2) in your browser.
+Ahora navegue a [http://127.0.0.1:8182/iiif/2](http://127.0.0.1:8182/iiif/2) en su navegador.
 
-You should see this:
+Debiera ver esto:
 
 ![server image](images/server_info.png)
 
-Congrats you successfully installed Cantaloupe!
+¡Felicitaciones, ha instalado Cantaloupe exitosamente!
 
-Also make sure you can get into the admin panel by navigating to [http://127.0.0.1:8182/admin](http://127.0.0.1:8182/admin).
+También, compruebe que puede entrar al panel admin navegando a [http://127.0.0.1:8182/admin](http://127.0.0.1:8182/admin).
 
-Use the username `admin` and the password you set previously.
+Use el nombre de usuario `admin` y la contraseña que haya especificado anteriormente.
 
 ![admin panel](images/admin_panel.png)

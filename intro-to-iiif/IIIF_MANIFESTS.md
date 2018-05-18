@@ -1,78 +1,78 @@
-# Creating a IIIF manifest
+# Creando un manifest de IIIF
 
-Earlier we said that IIIF manifests using the Presentation API can be quite complex and support a wide variety options. Let's now go and create a manifest. In practice, manifest creation happens in several ways.
+Antes dijimos que los manifests de IIIF usando la API de Presentación pueden ser muy complejos y soportar una amplia variedad de opciones. Ahora vamos a crear un manifest. En la práctica, la creación de manifests tiene lugar de varias maneras.
 
- - Automatically interpreted from image object metadata
- - Created by scholars for research and interpretation
- - A mix of both of these
+ - Interpretado automáticamente de metadatos de objeto imagen
+ - Creado por expertos para investigación e interpretación
+ - Una mezcla de los anteriores
 
-## Building the manifest
-For this exercise, we are going to create a manifest using an online tool.
+## Construyendo el manifest
+Para este ejercicio, vamos a crear un manifest usando una herramienta en línea.
 
-To start navigate to:
+Para empezar navegue a:
 
 http://iiif.bodleian.ox.ac.uk/manifest-editor/
 
-This is a demo/hosted version of the [iiif-manifest-editor](https://github.com/bodleian/iiif-manifest-editor).
+Esta es una versión demo/alojada del [iiif-manifest-editor](https://github.com/bodleian/iiif-manifest-editor).
 
-1. Click "New Manifest"
+1. Clic en "New Manifest"
 
-1. Click "Add Canvas" and then click on the "Empty Canvas"
+1. Clic en "Add Canvas" y entonces clic en "Empty Canvas"
 
   ![add canvas](images/add_canvas.png)
 
-1. Now we need to add an image to this canvas. Click "Add Image to Canvas"
+1. Ahora necesitamos añadir una imagen a este canvas. Clic en "Add Image to Canvas"
 
-1. And we want to use an image we already hosting, so we select the "From info.json URI" option, and input our info.json URI from our local IIIF server. Then click "Submit URI"
+1. Y queremos usar una imagen que ya estamos alojando, así que seleccionamos la opción "From info.json URI", e introducimos nuestra URI de info.json de nuestro servidor de IIIF local. Entonces clic en "Submit URI"
 
   `http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json`
 
   ![info json uri](images/info_json_uri.png)
 
-1. We should now have an image in our view!
+1. ¡Ahora debiéramos ver una imagen!
 
-1. Finally, let's download the manifest, by clicking "Save Manifest" at the top of the page, and "Save"
+1. Finalmente, vamos a descargar el manifest, con un clic en "Save Manifest" en la parte superior de la página, y clic en "Save"
 
-  Great job! You now have created and downloaded a IIIF Presentation API manifest. But wait, theres more!
+  ¡Buen trabajo! Ya ha creado y descargado un manifest de la API de Presentación de IIIF. Pero espere, ¡hay más!
 
-## Viewing in new environments
+## Visualizando en nuevos entornos
 
-### Hosting the manifest
-Let's view this in a few different environments. First we need to host it.
+### Alojando el manifest
+Veamos esto en algunos entornos distintos. Primero necesitamos alojarlo.
 
-1. Navigate to https://gist.github.com
+1. Navegue a https://gist.github.com
 
-1. Drag and drop your `manifest.json` file into the window and click "Create Secret Gist" (or public if you like, it doesn't matter).
+1. Arrastre y suelte su archivo `manifest.json` en la ventana y clic en "Create Secret Gist" (o público si prefiere, no importa).
 
   ![gist](images/gist.png)
 
-1. After the gist is created, click the "Raw" button to get the raw file url.
+1. Después de creado el gist, clic en el botón "Raw" para obtener la url del archivo raw.
 
-### Viewing in UniversalViewer
-1. Copy that URL, navigate to [http://universalviewer.io/uv.html?manifest=](http://universalviewer.io/uv.html?manifest=) and past the hosted manifest url after the `=` in the url.
+### Visualizando en UniversalViewer
+1. Copie esa URL, navegue a [http://universalviewer.io/uv.html?manifest=](http://universalviewer.io/uv.html?manifest=) y pegue la url del manifest alojado después del `=` en la url.
 
-  Hopefully you see your images in the [UniversalViewer](http://universalviewer.io/).
+  Debiera ver sus imágenes en el [UniversalViewer](http://universalviewer.io/).
 
-### Viewing in Mirador
-Let's also view this in [Mirador](projectmirador.org)
+### Visualizando en Mirador
+Veamos esto también en [Mirador](projectmirador.org)
 
-1. Navigate to [http://projectmirador.org/demo/](http://projectmirador.org/demo/).
+1. Navegue a [http://projectmirador.org/demo/](http://projectmirador.org/demo/).
 
-1. Click the `x` box in both windows to close the windows.
+1. Clic en la `x` en ambas ventanas para cerrar las ventanas.
 
-1. Hover over the icon to the right of the `x` and click "Replace Object"
+1. Mueva el cursor sobre el ícono a la derecha de la `x` y clic en "Replace Object"
 
   ![mirador replace object](images/mirador_replace.png)
 
-1. Paste in your manifest url to the text box "Add new object from URL:"
+1. Pegue su url de manifest en el recuadro de texto "Add new object from URL:"
 
-1. Click "Load" - You should see your manifest loaded there. Click on one of your images. 
+1. Clic en "Load" - Debiera ver su manifest cargado. Clic en una de sus imágenes. 
 
-You should see one of your images now in the view next to a van Gogh
+Ahora debiera ver una de sus imágenes junto a un van Gogh
 
 ![eddie in Mirador](images/eddie_mirador.png)
 
 
-** Extra Credit **
+** Crédito Extra **
 
-You may have noticed labels like "Click to edit label" in the viewer environments. This is because we didn't edit them in the manifest editor. Go back and repeat the exercise, editing labels and adding new images.
+Puede haber notado labels como "Click to edit label" en los entornos de visualización. Esto se debe a que no los editamos en el editor de manifests. Regrese y repita el ejercicio, editando labels y agregando nuevas imágenes.

@@ -1,27 +1,27 @@
 # Leaflet-IIIF
 
-[Leaflet-IIIF](https://github.com/mejackreed/Leaflet-IIIF) is a JavaScript library for creating zoomable views of IIIF images. It is a plugin for the popular library [LeafletJS](http://leafletjs.com/).
+[Leaflet-IIIF](https://github.com/mejackreed/Leaflet-IIIF) es una librería de JavaScript para crear vistas zoomables de imágenes de IIIF. Es un plugin para la popular librería [LeafletJS](http://leafletjs.com/).
 
-Here is an example:
+Veamos un ejemplo:
 
 <iframe src="https://mejackreed.github.io/Leaflet-IIIF/examples/example.html" frameborder="0" width="100%" height="500px"></iframe>
 
-Leaflet-IIIF allows you to use the expressivity of Leaflet and its plugin ecosystem all at the same time to display IIIF images.
+Leaflet-IIIF permite usar la expresividad de Leaflet y su ecosistema de plugins simultáneamente para mostrar imágenes de IIIF.
 
-Let's take a look at that Leaflet-IIIF instance and how it works.
+Veamos esa instancia de Leaflet-IIIF y como funciona.
 
 
 <iframe width="100%" height="300" src="//jsfiddle.net/mejackreed/r4gucLb8/embedded/" allowfullscreen="allowfullscreen" frameborder="0"></iframe>
 
-The Leaflet-IIIF tilelayer is a subclass of [L.Tilelayer](http://leafletjs.com/reference.html#tilelayer) and so it in inherits many of the properties of this class, including instantiation options, methods and events. Not all of these are relevant (or work :))
+El tilelayer de Leaflet-IIIF es una subclase de [L.Tilelayer](http://leafletjs.com/reference.html#tilelayer) y por tanto hereda muchas de las propiedades de esta clase, incluyendo opciones de instanciación, métodos y eventos. No todas son relevantes (o funcionan :))
 
-Some of the reasons why you would use Leaflet-IIIF:
+Algunas de las razones para usar Leaflet-IIIF:
 
- - It is lightweight (by far the lightest weight IIIF Image API library)
- - Works great on mobile
- - Accessibility minded
- - A huge [community of plugins](http://leafletjs.com/plugins) to integrate with
+ - Es ligera (por mucho, la más ligera librería de la API de Imagen de IIIF)
+ - Funciona muy bien en los móviles
+ - Orientada a la accesibilidad
+ - Una enorme [comunidad de plugins](http://leafletjs.com/plugins) con los cuales integrar
 
-A drawback of the plugin, is that there is some functionality that is not yet implemented. But it mostly handles the 95% use cases.
+Una desventaja del plugin, es que alguna funcionalidad no está implementada aún. Pero en general maneja el 95% casos de uso.
 
-[More examples of fun stuff you can do with Leaflet-IIIF](https://bl.ocks.org/mejackreed).
+[Más ejemplos de cosas divertidas que puede hacer con Leaflet-IIIF](https://bl.ocks.org/mejackreed).

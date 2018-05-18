@@ -1,10 +1,10 @@
-# What is IIIF?
+# ¿Qué es IIIF?
 
-The International Image Interoperability Framework (IIIF) is a set of technical specifications built around shared challenges in cultural heritage access. More than the technical specifications, IIIF is a community of software, tools, content, people, and institutions solving image Interoperability challenges.
+El International Image Interoperability Framework (IIIF) es un conjunto de especificaciones técnicas construído alrededor de retos comunes del acceso al patrimonio cultural. Más que las especificaciones técnicas, IIIF es una comunidad de software, herramientas, contenido, gente, e instituciones que resuelven retos de interoperabilidad de imágenes.
 
-From [http://iiif.io/about/](http://iiif.io/about/):
-> IIIF (International Image Interoperability Framework) has the following goals:
+Según [http://iiif.io/about/](http://iiif.io/about/):
+> IIIF (International Image Interoperability Framework) tiene los objetivos siguientes:
 
-  > - To give scholars an unprecedented level of uniform and rich access to image-based resources hosted around the world.
-  > - To define a set of common application programming interfaces that support interoperability between image repositories.
-  > - To develop, cultivate and document shared technologies, such as image servers and web clients, that provide a world-class user experience in viewing, comparing, manipulating and annotating images.
+  > - Ofrecer a los estudiosos un nivel sin precedentes de acceso uniforme y enriquecido a los recursos basados en imagen alojados en todo el mundo.
+  > - Definir un conjunto de interfaces de programación de aplicaciones comunes que soporten la interoperabilidad entre los repositorios de imágenes.
+  > - Desarrollar, cultivar y documentar tecnologías compartidas, como los servidores de imagen y los clientes web, que proporcionan una experiencia de usuario de clase mundial en la visualización, comparación, manipulación, y anotación de imágenes.

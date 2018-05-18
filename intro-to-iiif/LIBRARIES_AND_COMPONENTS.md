@@ -1,6 +1,6 @@
-#Libraries and Components
-As the specifications became more featureful and the community of developers and their many use cases grew, the need for compassable software libraries capable of managing backwards compatibility and providing utility functions on top of the APIs became more clear.
+#Librerías y Componentes
+A medida que se incrementan las características de las especificaciones, y crece la comunidad de desarrolladores y sus muchos casos de uso, la necesidad de librerías de software abarcadoras capaces de gestionar la retrocompatibilidad y proporcionar funciones de utilidad por encima de las APIs se vuelve más clara.
 
-The Software Developers Interest Group, one of the several sub-communities with the IIIF ecosystem, has begun publishing these libraries on [github](https://github.com/viewdir), along with documentation for [getting started](https://viewdir.github.io/).
+El Software Developers Interest Group, una de varias sub-comunidades en el ecosistema de IIIF, ha comenzado a publicar estas librerías en [github](https://github.com/viewdir), junto con documentación para [comenzar](https://viewdir.github.io/).
 
-The most mature is [Manifesto](https://github.com/viewdir/manifesto), a javascript library which wraps the presentation API for front-end and backend handling.
+La más madura es [Manifesto](https://github.com/viewdir/manifesto), una librería de javascript que envuelve la API de Presentación para manejo de front-end y backend.

@@ -1,32 +1,32 @@
-# Prerequisites for the workshop
+# Prerrequisitos para el taller
 
-This workshop is meant to be hands-on and interactive. This means you have the option of installing the software and playing with it during the workshop. We would prefer not to spend time during the workshop getting everyone setup, so some things are needed in advance of the workshop.
+Este taller pretende ser práctico e interactivo. Esto significa que tiene la opción de instalar el software y jugar con el mismo durante el taller. Preferiríamos no pasar tiempo durante el taller preparando a todos, así que algunas cosas son necesarias de antemano.
 
-## IIIF Server Requirements
+## Requisitos de Servidor de IIIF
 
-In this workshop we will install and run the IIIF Image server [Cantaloupe](https://github.com/medusa-project/cantaloupe/). To run Cantaloupe [you will need Java 8 installed](https://github.com/medusa-project/cantaloupe/#requirements).
+En este taller instalaremos y ejecutaremos el servidor de imágenes de IIIF [Cantaloupe](https://github.com/medusa-project/cantaloupe/). Para ejecutar Cantaloupe [necesitará Java 8 instalado](https://github.com/medusa-project/cantaloupe/#requirements).
 
- - [Downloading Java 8](https://java.com/en/download/help/download_options.xml)
+ - [Descargando Java 8](https://java.com/en/download/help/download_options.xml)
 
-To verify you have the correct package installed, you can run the following command from a terminal or command prompt:
+Para verificar que tiene instalado el paquete correcto, puede ejecutar el comando siguiente desde un terminal o ventana de comandos:
 
 ```sh
 $ java -version
 # java version "1.8.0_102"
 ```
 
-You should see version `1.8.x`
+Debiera ver la versión `1.8.x`
 
-## Navigating on the command line / terminal
+## Navegando en la línea de comandos / terminal
 
-In this workshop, we will be running commands from a terminal / command prompt. No need to be an expert, but you can get familiar in advance.
+En este taller, ejecutaremos comandos desde un terminal / ventana de comandos. No necesita ser un experto, pero se puede familiarizar por adelantado.
 
-** If you need help navigation around your computer using a terminal, checkout these quick exercises: **
- - [Paths, Folders, Directories (pwd)](https://learnpythonthehardway.org/book/appendix-a-cli/ex2.html)
- - [If You Get Lost](https://learnpythonthehardway.org/book/appendix-a-cli/ex3.html)
- - [Make A Directory (mkdir)](https://learnpythonthehardway.org/book/appendix-a-cli/ex4.html)
- - [Change Directory (cd)](https://learnpythonthehardway.org/book/appendix-a-cli/ex5.html)
+** Si necesita ayuda para navegar su computadora usando un terminal, vea estos ejercicios rápidos: **
+ - [Rutas, Carpetas, Directorios (pwd)](https://learnpythonthehardway.org/book/appendix-a-cli/ex2.html)
+ - [Si Se Pierde](https://learnpythonthehardway.org/book/appendix-a-cli/ex3.html)
+ - [Hacer Un Directorio (mkdir)](https://learnpythonthehardway.org/book/appendix-a-cli/ex4.html)
+ - [Cambiar De Directorio (cd)](https://learnpythonthehardway.org/book/appendix-a-cli/ex5.html)
 
-## Using a text editor
+## Usando un editor de texto
 
-We recommend some familiarity with a text editor before coming to the workshop. If you don't know which text editor to choose, a good, free, open source option is [atom](http://flight-manual.atom.io/getting-started/sections/installing-atom/).
+Recomendamos alguna familiaridad con un editor de texto antes de venir al taller. Si no sabe qué editor de texto escoger, una buena opción gratuita y de código abierto es [atom](http://flight-manual.atom.io/getting-started/sections/installing-atom/).

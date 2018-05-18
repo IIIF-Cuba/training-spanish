@@ -1,26 +1,26 @@
-# IIIF Specifications
+# Especificaciones de IIIF
 
-The IIIF technical specifications are the glue that holds things together for image interoperability.
+Las especificaciones técnicas de IIIF son el pegamento que sostiene la interoperabilidad de imágenes.
 
-[Complete list of specifications](http://iiif.io/api/#current-specifications)
+[Lista completa de especificaciones](http://iiif.io/api/#current-specifications)
 
-IIIF provides two core APIs:
- - Image API (I want to get image pixels)
- - Presentation API (I want to display the images)
+IIIF proporciona dos APIs principales:
+ - API de Imagen (Quiero píxeles de imágenes)
+ - API de Presentación (Quiero mostrar las imágenes)
  
-There are several more APIs that IIIF supports including Search and Authentication. This workshop will focus on the Image and Presentation APIs.
+IIIF soporta otras APIs que incluyen Búsqueda y Autenticación. Este taller se concentra en las APIs de Imagen y Presentación.
 
-## [Image API](http://iiif.io/api/image/2.1/)
+## [API de Imagen](http://iiif.io/api/image/2.1/)
 
-The Image API provides for a standardized way to request and deliver images. This can be as simple as, give me the original image to give me an upside down tiled version of the image in gif format. The IIIF Image API is restful and allows for images to be served dynamically or from a static cache (implementation details).
+La API de Imagen posibilita una manera estandarizada de solicitar y entregar imágenes. Esto puede ser tan simple como, dame la imagen original, o tan complejo como dame una versión girada 180º y en mosaicos de la imagen en formato gif. La API de Imagen de IIIF es restful y permite servir las imágenes dinámicamente o desde una caché estática (detalles de implementación).
 
-Images are requested using URI templates that have the following syntax:
+Las imágenes son solicitadas usando plantillas de URI que tienen la siguiente sintaxis:
 
 ```
 {scheme}://{server}{/prefix}/{identifier}/{region}/{size}/{rotation}/{quality}.{format}
 ``` 
 
-Here is a quick example of how modifying these parameters can change the image that is delivered back to you.
+El siguiente es un ejemplo de como la modificación de estos parámetros puede cambiar la imagen que se entrega.
 
 [![transformation](images/transformation.png)](http://iiif.io/api/image/2.1/#order-of-implementation)[^1]
 ```
@@ -29,25 +29,25 @@ region=125,15,120,140 size=90, rotation=!345 quality=gray
 # Source: http://iiif.io/api/image/2.1/#order-of-implementation
 ```
 
-We will go more in depth on this later with a hands on demonstration of how this works.
+Profundizaremos en esto más adelante con una demostración práctica de como funciona.
 
-## [Presentation API](http://iiif.io/api/presentation/2.1/)
+## [API de Presentación](http://iiif.io/api/presentation/2.1/)
 
-The IIIF Presentation API enables you to provide metadata about the structure and layout of image objects. Image type objects represent things like:
- - single images
- - groups of ordered images
- - groups of images that represent pages (book, manuscript)
+La API de Presentación de IIIF permite proporcionar metadatos sobre la estructura y layout de los objetos imagen. Los objetos de tipo imagen representan cosas como:
+ - imágenes individuales
+ - grupos de imágenes ordenadas
+ - grupos de imágenes que representan páginas (libro, manuscrito)
  
-The Presentation API provides metadata about how these image objects can be displayed.
+La API de Presentación proporciona metadatos sobre como pueden ser mostrados estos objetos imagen.
 
-### Basic objects
+### Objetos básicos
 [![basic objects](images/objects.png)](http://iiif.io/api/presentation/2.1/#basic-types)[^2]
 
-### More complex objects
+### Objetos más complejos
 [![all objects](images/objects-all.png)](http://iiif.io/api/presentation/2.1/#additional-types)[^3]
 
 [^1]: http://iiif.io/api/image/2.1/#order-of-implementation
 [^2]: http://iiif.io/api/presentation/2.1/#basic-types
 [^3]: http://iiif.io/api/presentation/2.1/#additional-types
 
-Some content adopted from [Everything you ever wanted to know about IIIF but were too afraid to ask](https://www.slideshare.net/Cogapp/everything-you-ever-wanted-to-know-about-iiif-but-were-too-afraid-to-ask).
+Algún contenido fue adoptado de [Todo lo que siempre quiso saber sobre IIIF pero temía preguntar](https://www.slideshare.net/Cogapp/everything-you-ever-wanted-to-know-about-iiif-but-were-too-afraid-to-ask).

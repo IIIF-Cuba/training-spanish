@@ -1,40 +1,40 @@
-# Pointing your image server at some images
+# Apuntando su servidor de imágenes a algunas imágenes
 
-Congrats now you have your image server up and running! We need to feed it some images to keep it happy!
+¡Felicitaciones, ahora tiene su servidor de imágenes en ejecución! ¡Necesitamos entregarle algunas imágenes para que sea feliz!
 
-## Download some images
+## Descargar algunas imágenes
 
-Go ahead and download a `*.jpg` image from the Internet into your Cantaloupe directory `Cantaloupe-3.3.1`. Here is one [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) that you can use.
+Descargue una imagen `*.jpg` de la Internet a su directorio de Cantaloupe `Cantaloupe-3.3.1`. Aquí tiene una [eddie.jpg](https://github.com/sul-cidr/histonets/raw/master/spec/fixtures/images/eddie.jpg) que puede usar.
 
-## Configure Cantaloupe to use the correct path
+## Configurar Cantaloupe para que use la ruta correcta
 
-Now we need to configure Cantaloupe to use that image directory.
+Ahora necesitamos configurar Cantaloupe para que use ese directorio de imágenes.
 
-Navigate to the admin page [http://127.0.0.1:8182/admin](http://127.0.0.1:8182/admin).
+Navegue a la página admin [http://127.0.0.1:8182/admin](http://127.0.0.1:8182/admin).
 
-Click on "Resolver", then click "FilesystemResolver" tab.
+Clic en "Resolver", y entonces clic en la pestaña "FilesystemResolver".
 
-Next fill in Path Prefix to be `./`
+Seguidamente llene Path Prefix como `./`
 
 ![file resolver](images/file_resolver.png)
 
-## Check it out in the browser
+## Ver en el navegador
 
-Now you should be able to navigate to an image's info.json response successfully.
+Ahora debiera poder navegar exitosamente a la respuesta info.json de una imagen.
 
-Checkout [http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
+Vea [http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
 
-And if everything goes right, you should see an `info.json` response.
+Y si todo sale bien, debiera ver una respuesta `info.json`.
 
 ![info json](images/info_json.png)
 
-Let's finally check it using the Leaflet-IIIF image api viewer.
+Finalmente, veámosla usando el visor Leaflet-IIIF de la api de imagen.
 
-Try this url: [http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
+Pruebe esta url: [http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json](http://mejackreed.github.io/Leaflet-IIIF/examples/?url=http://127.0.0.1:8182/iiif/2/eddie.jpg/info.json)
 
-Notice how we added our local IIIF server's info.json response url as a parameter. This is used by IIIF Image API clients to understand how they can request images/tiles.
+Note como añadimos la respuesta info.json de nuestro servidor de IIIF local como un parámetro. Los clientes de la API de Imagen de IIIF usan esto para comprender como pueden solicitar imágenes/mosaicos.
 
 
 ![eddie in iiif](images/eddie_iiif.png)
 
-Cross our fingers, but you should see a picture of Eddie in a zoomable viewer.
+Dedos cruzados, pero debiera ver una foto de Eddie en un visor zoomable.

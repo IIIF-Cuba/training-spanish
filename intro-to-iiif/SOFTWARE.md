@@ -1,18 +1,18 @@
 # Software
 
-Most of the IIIF software developed is open source and can be found through the [Awesome-IIIF](https://github.com/IIIF/awesome-iiif) list.
+La mayor parte del software de IIIF desarrollado es de código abierto y se puede encontrar mediante la lista [Awesome-IIIF](https://github.com/IIIF/awesome-iiif).
 
-A typical IIIF request response cycle looks something like this.
+Un ciclo típico de respuesta a petición de IIIF tiene este aspecto.
 
 ![IIIF request response](images/request_response.png)
 
-This request response cycle follows a basic pattern, where a IIIF client wants to display an object consisting of `n` images. The client then requests a IIIF Presentation API [`manifest.json`](https://purl.stanford.edu/cy496ky1984/iiif/manifest.json) from a server. The client then parses the manifest and starts to put together a view of the image object. For each image that it wants to display, the client then requests an [`info.json`](https://stacks.stanford.edu/image/iiif/cy496ky1984%2Fcy496ky1984_00_0002/info.json) response from the IIIF server. The `info.json` response contains information about the image, including dimensions, available image server options, and available tile levels.
+Este ciclo de respuesta a petición sigue un patrón básico, donde un cliente de IIIF quiere mostrar un objeto compuesto por `n` imágenes. El cliente solicita entonces de un servidor un [`manifest.json`](https://purl.stanford.edu/cy496ky1984/iiif/manifest.json) de la API de Presentación de IIIF. El cliente parsea entonces el manifest, y empieza a construir una vista del objeto imagen. Por cada imagen que quiere mostrar, el cliente solicita entonces una respuesta [`info.json`](https://stacks.stanford.edu/image/iiif/cy496ky1984%2Fcy496ky1984_00_0002/info.json) del servidor de IIIF. La respuesta `info.json` contiene información sobre la imagen, incluyendo dimensiones, opciones del servidor de imagenes disponibles, y niveles de mosaico disponibles.
 
-## IIIF manifest software
-IIIF manifest's can be served as static or dynamic content. The manifest can be quite complex, but at its basic level it contains metadata about the image object. [Several libraries](https://github.com/IIIF/awesome-iiif#presentation-api-libraries) exist for creating these manifests.
+## Software de manifest de IIIF
+Los manifests de IIIF se pueden servir como contenido estático o dinámico. El manifest puede ser muy complejo, pero en su nivel básico contiene metadatos sobre el objeto imagen. Existen [varias librerías](https://github.com/IIIF/awesome-iiif#presentation-api-libraries) para crear estos manifests.
 
-## IIIF image server software
-There are several [IIIF image server software applications](https://github.com/IIIF/awesome-iiif#image-api-libraries) available. These image servers have two main functions: responding to `info.json` requests and responding to image requests. Later on in this workshop we are going to install the [Cantaloupe IIIF Image Server](https://github.com/medusa-project/cantaloupe/).
+## Software de servidor de imágenes de IIIF
+Hay varias [aplicaciones de software de servidor de imágenes de IIIF](https://github.com/IIIF/awesome-iiif#image-api-libraries) disponibles. Estos servidores de imágenes tienen dos funciones principales: responder peticiones de `info.json` y responder peticiones de imágenes. Más adelante en este taller vamos a instalar el [Servidor de Imágenes de IIIF Cantaloupe](https://github.com/medusa-project/cantaloupe/).
 
-## IIIF client software
-IIIF clients are built to consume IIIF web services using the technical specications. Some clients are focused on presenting image objects while, others are only interested in consuming the image server responses.
+## Software de cliente de IIIF
+Los clientes de IIIF son construídos para consumir servicios web de IIIF usando las especificaciones técnicas. Algunos clientes se concentran en presentar los objetos imagen mientras que otros sólo están interesados en consumir las respuestas de servidor de imágenes.

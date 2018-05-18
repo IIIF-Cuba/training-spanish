@@ -1,17 +1,17 @@
-# Getting Ongoing Support and Technical Help
+# Obteniendo Soporte Continuo y Asistencia Técnica
 
-The [IIIF Awesome List](https://github.com/IIIF/awesome-iiif) is a great resource to find software, applications, and other fun stuff IIIF.
+La [IIIF Awesome List](https://github.com/IIIF/awesome-iiif) es un gran recurso para encontrar software, aplicaciones, y otras cosas divertidas de IIIF.
 
-There are several ways to get involved with the IIIF community and get IIIF help. The [IIIF Community](http://iiif.io/community/) page is a great place to get started.
+Hay varias maneras de participar en la comunidad de IIIF y conseguir ayuda de IIIF. La página [IIIF Community](http://iiif.io/community/) es un buen lugar para comenzar.
 
 
- - [IIIF-discuss](https://groups.google.com/forum/#!forum/iiif-discuss) is a Google Group that is a good place to start with asking questions and discussing IIIF.
- - Join the [IIIF Slack](http://bit.ly/iiif-slack) team
- - [http://iiif.io/community/call](http://iiif.io/community/call) participate in a bi-weekly teleconference
+ - [IIIF-discuss](https://groups.google.com/forum/#!forum/iiif-discuss) es un Google Group que es un buen lugar para empezar a hacer preguntas y discutir IIIF.
+ - Únase al equipo [IIIF Slack](http://bit.ly/iiif-slack)
+ - [http://iiif.io/community/call](http://iiif.io/community/call) participe en una teleconferencia bisemanal
 
 ## [Community Groups](http://iiif.io/community/groups/)
 
-IIIF has community and technical groups that you can get involved with.
+IIIF tiene grupos comunitarios y técnicos en los cuales puede participar.
 
  - [A/V Technical Specification Group](http://iiif.io/community/groups/av)
  - [Discovery Technical Specification Group](http://iiif.io/community/groups/discovery)

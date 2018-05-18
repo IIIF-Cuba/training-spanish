@@ -1,3 +1,3 @@
-# IIIF Clients
+# Clientes de IIIF
 
-There are countless ways to consume IIIF compliant images and manifests. Today we are going to talk about a few of them. I'm hoping after this workshop you will come up with some new and interesting uses for IIIF.
+Hay incontables maneras de consumir imágenes y manifests compatibles con IIIF. Hoy vamos a hablar sobre algunas de ellas. Espero que después de este taller usted encuentre algunos usos nuevos e interesantes para IIIF.

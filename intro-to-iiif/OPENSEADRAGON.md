@@ -1,6 +1,6 @@
 # OpenSeadragon
-Openseadragon is a deep-zooming javascript client whose primary advantage is a very smooth loading and navigation experience. It grew out of a research project alongside PhotoSynth at Microsoft Labs, and its progenitor was featured in a [TED talk in 2006](https://www.ted.com/talks/blaise_aguera_y_arcas_demos_photosynth).
+Openseadragon es un cliente de javascript con zoom profundo cuya ventaja primaria es una experiencia de carga y navegación muy eficiente. Surgió de un proyecto investigativo junto a PhotoSynth en Microsoft Labs, y su progenitor fue presentado en una [charla TED en 2006](https://www.ted.com/talks/blaise_aguera_y_arcas_demos_photosynth).
 
-The Openseadragon library ports this technology to javascript. It supports the IIIF Image API natively, and is very simple to get up and running by supplying an info.json reference as its "tileSource". This is described in a [dedicated page](https://openseadragon.github.io/examples/tilesource-iiif/) in its documentation.
+La librería Openseadragon porta esta tecnología a javascript. Soporta nativamente la API de Imagen de IIIF, y es muy simple ponerla en funcionamiento suministrando una referencia info.json como su "tileSource". Esto es descrito en una [página dedicada](https://openseadragon.github.io/examples/tilesource-iiif/) de su documentación.
 
-To experiment with its configuration options, try this [jsfiddle](http://fiddle.jshell.net/mkd96e8d/6/).
+Para experimentar con sus opciones de configuración, pruebe este [jsfiddle](http://fiddle.jshell.net/mkd96e8d/6/).
