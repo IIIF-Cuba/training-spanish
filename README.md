@@ -1,4 +1,4 @@
-# training
-Documentation and workshop materials for IIIF training
+# Adiestramiento
+Documentación y material de taller para capacitación IIIF
 
-* [Introduction to IIIF Guidebook](https://iiif.github.io/training/intro-to-iiif/)
+* [Introducción a la guía del IIIF](https://iiif.github.io/training/intro-to-iiif/)
